@@ -1,0 +1,27 @@
+BasedOnStyle: Google
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: true
+ColumnLimit: 76
+BreakBeforeBraces: Attach
+SpacesBeforeTrailingComments: 1
+Cpp11BracedListStyle: true
+DerivePointerAlignment: false
+PointerAlignment: Right
+SpaceBeforeParens: ControlStatements
+SortIncludes: false
+IncludeBlocks: Preserve
+ReflowComments: true
+BraceWrapping:
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  BeforeCatch: false
+  BeforeElse: false
+  IndentBraces: false
